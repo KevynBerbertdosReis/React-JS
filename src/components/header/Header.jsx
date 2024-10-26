@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.png"
 import style from "../header/header.module.css"
-import Cart from "../icons/cart"
+import CartIcon from "../icons/CartIcon"
 import SearchIcon from "../icons/SearchIcon"
 
 function Header() {
@@ -32,8 +32,8 @@ function Header() {
                         entrar
                     </a>
 
-                    <div>
-                        <Cart />
+                    <div className={style.cart}>
+                        <CartIcon />
                         <span>2</span>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
-header{
+header {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     font-family: Inter;
@@ -9,26 +10,39 @@ header{
     width: 253px;
 }
 
-.logoImg{
+.logoImg {
     width: 100%;
 }
 
-.input{
+.input {
     width: 600px;
     position: relative;
     align-items: center;
 }
 
-
-
-.inputSearch{
+.search {
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
     background-color: rgba(71, 71, 71, 0.1);
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.inputSearch {
     border: none;
     height: 30px;
-    padding: 6px 12px;
     width: 100%;
-    border-radius: 8px;
-    
+    background-color: transparent;
+}
+
+.inputSearch:focus {
+    outline: none;
+}
+
+.IconSearch {
+    cursor: pointer;
 }
 
 .storeLinks {
@@ -37,9 +51,14 @@ header{
     align-items: center;
 }
 
-.btnLogin{
+.signUp{
+    color:  #474747;
+    font-size: 16px;
+}
+
+.btnLogin {
     color: white;
-    background-color:rgba(201, 32, 113, 1);
+    background-color: rgba(201, 32, 113, 1);
     text-align: center;
     border-radius: 8px;
     min-width: 70px;
@@ -47,19 +66,24 @@ header{
     text-decoration: none;
 }
 
-.SearchImg{
-    position: absolute;
-    top: 10px;
-    left: 590px;
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
     cursor: pointer;
+    color: rgba(201, 32, 113, 1);
 }
 
-.signUp{
-    color: #474747;
-    ;
-}
-
-.cartImg{
+.cart span {
+    background-color: #EE4266;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    height: 18px;
     position: absolute;
-
+    position: absolute;
+    right: -40%;
+    top: 0%;
+    text-align: center;
+    width: 18px;
 }
