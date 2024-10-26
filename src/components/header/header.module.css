@@ -16,7 +16,10 @@ header{
 .input{
     width: 600px;
     position: relative;
+    align-items: center;
 }
+
+
 
 .inputSearch{
     background-color: rgba(71, 71, 71, 0.1);
@@ -25,11 +28,13 @@ header{
     padding: 6px 12px;
     width: 100%;
     border-radius: 8px;
+    
 }
 
 .storeLinks {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .btnLogin{
@@ -46,9 +51,15 @@ header{
     position: absolute;
     top: 10px;
     left: 590px;
+    cursor: pointer;
 }
 
 .signUp{
     color: #474747;
     ;
+}
+
+.cartImg{
+    position: absolute;
+
 }

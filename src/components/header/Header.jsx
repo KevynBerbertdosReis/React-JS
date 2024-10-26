@@ -1,6 +1,7 @@
 import logo from "../../assets/logo.png"
 import style from "../header/header.module.css"
-import Search from "../../assets/Search.png"
+import Cart from "../icons/cart"
+import SearchIcon from "../icons/SearchIcon"
 
 function Header() {
     return (
@@ -10,17 +11,16 @@ function Header() {
                     <img className={style.logoImg} src={logo} alt="" />
                 </div>
 
-                <div className='search'>
-                    <div className={style.input}>
+                <div className={style.search}>
                         <input className={style.inputSearch}
                             type="text"
                             name="search"
                             id="search"
                             placeholder="Pesquisar produto..."
                         />
-                        <img className={style.SearchImg} src={Search} alt="" />
-                    </div>
-                    <a className="search" href=""></a>
+                        <i className={style.IconSearch}>
+                            <SearchIcon />
+                        </i>
                 </div>
 
                 <div className={style.storeLinks}>
@@ -32,13 +32,15 @@ function Header() {
                         entrar
                     </a>
 
-                    <a className="cart" href="">
-
-                    </a>
+                    <div>
+                        <Cart />
+                        <span>2</span>
+                    </div>
                 </div>
             </header>
         </>
     );
 }
+
 
 export default Header;
