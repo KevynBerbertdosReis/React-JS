@@ -1,0 +1,14 @@
+.icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.description{
+    margin-top: 40px;
+}
+
+.footer{
+    background-color: #1F1F1F;
+    color:  #FFFFFF;
+}

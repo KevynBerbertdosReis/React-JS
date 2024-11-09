@@ -1,0 +1,18 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu > li.active{
+    color: #C92071;
+    border-bottom: 2px solid #C92071;
+}
+
+.menu > li.active,
+.menu > li.item{
+    font-size: 14px;
+    cursor: pointer;
+}
+
