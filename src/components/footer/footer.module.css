@@ -2,13 +2,88 @@
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    margin-left: 104px;
+    height: 20.53px;
+    width: 10.92px;
+    
 }
 
 .description{
     margin-top: 40px;
+    margin-left: 104px;
 }
 
 .footer{
     background-color: #1F1F1F;
     color:  #FFFFFF;
+    display: flex;
+    height: 300px;
+}
+
+.footer .information{
+    width: 145px;
+    height: 278px;
+    display: grid;
+    align-items: center;
+}
+
+.footer .products{
+    align-items: center;
+    display: grid;
+}
+
+.footer .contact{
+    display: grid;
+    align-items: center;
+}
+
+
+.slogan{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.slogan .text{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.slogan img{
+    margin-left: 104px;
+    height: 33px;
+    padding-top: 20px;
+}
+
+.information{
+    list-style: none;
+    padding-left: 50px;
+    width: 135px;
+    height: 278px;
+}
+
+.products{
+    list-style: none;
+    padding-left: 50px;
+    width: 96px;
+    height: 240px;
+    top: 72px;
+}
+
+.contact {
+    list-style: none;
+    padding-left: 50px;
+    width: 233px;
+    height: 158px;
+    padding-top: 6px;
+    top: 72px;
+}
+
+.name{
+    align-items: center;
+    padding-left: 42%;
+    background-color: #1F1F1F;
+    color:  #FFFFFF;
+    border-top: 3px solid #595959;
+    font-size: 13px;
 }
