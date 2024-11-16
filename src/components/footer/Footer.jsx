@@ -10,6 +10,7 @@ function Footer() {
   };
   return (
     <>
+    <div className="content">
       <div className={style.footer}>
         <div>
           <div className={style.slogan}>
@@ -54,7 +55,9 @@ function Footer() {
         </div>
       </div>
       <div className={style.name}>@ 2022 Digital College</div>
+      </div>
     </>
+    
   );
 }
 

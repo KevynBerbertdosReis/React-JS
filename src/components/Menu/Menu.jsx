@@ -13,6 +13,7 @@ function Menu() {
 
   return (
     <>
+    <div className="content">
       <ul className={style.menu}>
         {menuItens.map((item, index) => (
           <li key={index} onClick={() => handleClick(index)}
@@ -21,6 +22,7 @@ function Menu() {
         {item}</li>
         ))}
       </ul>
+      </div>
     </>
   );
 }

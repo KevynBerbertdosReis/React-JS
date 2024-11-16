@@ -1,11 +1,11 @@
-
 function Body() {
-    return (
-        <>
-            <h1>conteudo</h1>
-        </>
-
-    )
+  return (
+    <>
+      <div className="content">
+        <h1>conteudo</h1>
+      </div>
+    </>
+  );
 }
 
-export default Body
+export default Body;
