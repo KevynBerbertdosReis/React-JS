@@ -1,28 +1,26 @@
-
-
-.headerContent {
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 40px 0;
+  }
+  
+  .headerContent {
+    width: 1240px;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    font-family: Inter;
-}
-
-
-.logo {
+  }
+  
+  .logo {
     width: 253px;
-}
-
-.logoImg {
+  }
+  
+  .logoImg {
     width: 100%;
-}
-
-.input {
-    width: 600px;
-    position: relative;
-    align-items: center;
-}
-
-.search {
+  }
+  
+  .search {
     width: 600px;
     box-sizing: border-box;
     display: flex;
@@ -30,62 +28,60 @@
     background-color: rgba(71, 71, 71, 0.1);
     padding: 6px 12px;
     border-radius: 8px;
-}
-
-.inputSearch {
+  }
+  
+  .inputSearch {
     border: none;
     height: 30px;
     width: 100%;
     background-color: transparent;
-}
-
-.inputSearch:focus {
+  }
+  
+  .inputSearch:focus {
     outline: none;
-}
-
-.IconSearch {
+  }
+  
+  .iconSearch {
     cursor: pointer;
-}
-
-.storeLinks {
+  }
+  
+  .storeLinks {
     display: flex;
-    gap: 40px;
     align-items: center;
-}
-
-.signUp{
-    color:  #474747;
+    gap: 40px;
+  }
+  
+  .signUp {
+    color: rgba(71, 71, 71, 1);
     font-size: 16px;
-}
-
-.btnLogin {
+  }
+  
+  .btnLogin {
     color: white;
-    background-color: rgba(201, 32, 113, 1);
-    text-align: center;
+    background-color: #c92071;
     border-radius: 8px;
+    text-align: center;
     min-width: 70px;
     padding: 12px 18px;
     text-decoration: none;
-}
-
-.cart {
+  }
+  
+  .cart {
     position: relative;
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: rgba(201, 32, 113, 1);
-}
-
-.cart span {
-    background-color: #EE4266;
+  }
+  
+  .cart span {
+    background-color: #ee4266;
     border-radius: 50%;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     height: 18px;
     position: absolute;
-    position: absolute;
     right: -40%;
-    top: 0%;
     text-align: center;
+    top: 0%;
     width: 18px;
-}
+  }
