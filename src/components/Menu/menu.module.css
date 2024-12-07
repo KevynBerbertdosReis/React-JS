@@ -1,8 +1,14 @@
+.content{
+     background-color: #ffff;
+}
+
 .menu {
     list-style: none;
     display: flex;
     gap: 20px;
     padding: 0;
+    width: 1240px;
+    margin: 0 auto;
 }
 
 

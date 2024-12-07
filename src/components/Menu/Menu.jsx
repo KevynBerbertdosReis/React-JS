@@ -19,7 +19,7 @@ function Menu() {
 
   return (
     <>
-      <div className="content">
+      <div className={style.content}>
         <ul className={style.menu}>
           {menuItens.map((item, index) => (
             <NavLink to={item.path} key={index}>

@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+ 
 
   color: #474747;
 
@@ -9,5 +10,33 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ /*definição de cores*/
+
+  --primary:#C92071;
+  --secondary: #B5B6F2;
+  --tertiary: #991956;
+  -error: #EE4266;
+  --sucess: #52CA76;
+  --warning: #F6AA1C;
+  --primary-G: #C92071;
+  --secondary-G: #B5B6F2;
+  --dark-gray-2: #474747;
+  --dark-gray: #1F1F1F;
+  --light-gray: #8F8F8F;
+
+
+  /*definiçõ de TEXTOS*/
+  --primary-color-text: var(--dark-gray-2);
+  --dark-text-color: var(--dark-gray);
+  --light-text-color: var(--light-gray);
 }
+
+p,h1,h2,h3,h4,h5,h6{
+  color: var(--primary-color-text);
+}
+
+
+
+
 

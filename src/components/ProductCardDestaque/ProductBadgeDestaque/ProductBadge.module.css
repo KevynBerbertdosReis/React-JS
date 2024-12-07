@@ -1,0 +1,8 @@
+.buttonBadge{
+    background-color: var(--warning);
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer none;
+}
