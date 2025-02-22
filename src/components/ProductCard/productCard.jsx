@@ -1,15 +1,13 @@
-import ProductDescription from "./productDescription/ProductDescription";
-import ProductImg from "./ProductImg/ProductImg";
-
-
+import ProductImg from "./product-img/ProductImg";
+import ProductDescription from "./product-description/ProductDescription";
 function ProductCard() {
-return(<>
-    
-    <ProductImg />,
-    <ProductDescription />,
+  return (
+    <>
+      <h3>CARD DO PRODUTO</h3>
+      <ProductImg />
+      <ProductDescription />
     </>
-)
-
+  );
 }
 
 export default ProductCard;

@@ -1,0 +1,20 @@
+.dashboard {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    & .sidebar {
+      box-sizing: border-box;
+      position: absolute;
+      width: 150px;
+      height: 100vh;
+      padding: 10px;
+      background-color: rgb(32, 73, 73);
+    }
+  
+    & .content {
+      position: absolute;
+      right: 0;
+      width: calc(100% - 160px);
+      height: 100vh;
+    }
+  }
+  

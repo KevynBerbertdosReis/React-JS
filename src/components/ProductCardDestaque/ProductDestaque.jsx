@@ -1,18 +1,16 @@
-import ProductBadgeDestaque from "./ProductBadgeDestaque/ProductBadgeDestaque";
-import ProductButton from "./ProductButton/ProductButton";
-import ProductHeader from "./ProductHeader/ProductHeader";
-import ProductImgDestaque from "./ProductImgDestaque/ProductImgDestaque";
+import style from "./ProductCardDestaque.module.css";
 
-
-
-
-function ProductDestaque(){
-    return(<>
-    <ProductBadgeDestaque />
-    <ProductHeader />
-    <ProductButton />
-    <ProductImgDestaque />
-    </>)
+function ProductCardDestack({ title, image, discount }) {
+  return (
+    <>
+      <div className={style.productCardDestack}>
+        <span className={style.badge}>{discount}</span>
+        <h3> {title} </h3>
+        <button>Comprar</button>
+        <img src={image} alt="" />
+      </div>
+    </>
+  );
 }
 
-export default ProductDestaque;
+export default ProductCardDestack;

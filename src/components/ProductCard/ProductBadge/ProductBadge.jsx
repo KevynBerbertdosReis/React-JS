@@ -1,5 +1,9 @@
-function ProductBadge(){
-    return(<><div><h1>Badge do produto</h1></div></>)
-}
-
-export default ProductBadge;
+function ProductBadge({ discount }) {
+    return (
+      <>
+        <div>{discount}</div>
+      </>
+    );
+  }
+  
+  export default ProductBadge;

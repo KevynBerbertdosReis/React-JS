@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
- 
 
   color: #474747;
 
@@ -11,32 +10,44 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
- /*definição de cores*/
+  /* Definições de PADDING */
+  --reset-padding: 0;
+  --default-center-div: 0 auto;
+  --default-padding: 12px 8px;
 
-  --primary:#C92071;
-  --secondary: #B5B6F2;
+  /* Definições de CORES */
+  --default-bg: #f5f5f5;
+  --primary: #c92071;
+  --secondary: #b5b6f2;
   --tertiary: #991956;
-  -error: #EE4266;
-  --sucess: #52CA76;
-  --warning: #F6AA1C;
-  --primary-G: #C92071;
-  --secondary-G: #B5B6F2;
+  --error: #ee4266;
+  --success: #52ca76;
+  --warning: #f6aa1c;
+
+  /* Cores dark */
+  --dark-gray: #1f1f1f;
   --dark-gray-2: #474747;
-  --dark-gray: #1F1F1F;
-  --light-gray: #8F8F8F;
+  --light-gray: #8f8f8f;
 
-
-  /*definiçõ de TEXTOS*/
-  --primary-color-text: var(--dark-gray-2);
+  /* Definições de cores de TEXT */
+  --primary-text-color: var(--dark-gray-2);
   --dark-text-color: var(--dark-gray);
   --light-text-color: var(--light-gray);
+
+  /* Tamanho FONTES */
 }
 
-p,h1,h2,h3,h4,h5,h6{
-  color: var(--primary-color-text);
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-
-
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-text-color);
+}
