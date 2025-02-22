@@ -1,0 +1,31 @@
+.form-controller {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .form {
+    display: grid;
+    grid-template: row (repeat());
+  }
+  
+  .from-column {
+    width: 600px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .row {
+    display: inline;
+  }
+  
+  .col-1 {
+    width: calc(100% * 0.9);
+  }
+  
+  input {
+    width: 100%;
+  }
+  

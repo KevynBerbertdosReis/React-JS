@@ -1,15 +1,15 @@
-import logo from "../../assets/logo.png";
-import style from "../header/header.module.css";
-import CartIcon from "../icons/CartIcon";
+import Logo from "../../assets/img/logo/logo.png";
+import style from "./Header.module.css";
 import SearchIcon from "../icons/SearchIcon";
+import Cart from "../icons/Cart";
 
 function Header() {
   return (
     <>
-      <div className={style.headerContent}>
-        <header>
+      <header>
+        <div className={style.headerContent}>
           <div className={style.logo}>
-            <img className={style.logoImg} src={logo} alt="" />
+            <img className={style.logoImg} src={Logo} alt="" />
           </div>
 
           <div className={style.search}>
@@ -20,27 +20,25 @@ function Header() {
               id="search"
               placeholder="Pesquisar produto..."
             />
-            <i className={style.IconSearch}>
+            <i className={style.iconSearch}>
               <SearchIcon />
             </i>
           </div>
 
           <div className={style.storeLinks}>
             <a className={style.signUp} href="">
-              cadastre-se
+              Cadastre-se
             </a>
-
             <a className={style.btnLogin} href="">
-              entrar
+              Entrar
             </a>
-
             <div className={style.cart}>
-              <CartIcon />
-              <span>2</span>
+              <Cart />
+              <span>12</span>
             </div>
           </div>
-        </header>
-      </div>
+        </div>
+      </header>
     </>
   );
 }

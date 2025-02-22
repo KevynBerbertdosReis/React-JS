@@ -1,9 +1,10 @@
 import { useState } from "react";
-import style from "./menu.module.css";
+import style from "./Menu.module.css";
 import { NavLink } from "react-router";
 
 function Menu() {
   const [itemIndex, setItemIndex] = useState(0);
+
   const menuItens = [
     { label: "Home", path: "/" },
     { label: "Produtos", path: "products" },
@@ -14,8 +15,6 @@ function Menu() {
   function handleClick(index) {
     setItemIndex(index);
   }
-
-  console.log(itemIndex);
 
   return (
     <>
